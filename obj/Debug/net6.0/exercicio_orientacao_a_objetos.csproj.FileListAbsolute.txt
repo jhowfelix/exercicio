@@ -1,0 +1,15 @@
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\bin\Debug\net6.0\exercicio_orientacao_a_objetos.exe
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\bin\Debug\net6.0\exercicio_orientacao_a_objetos.deps.json
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\bin\Debug\net6.0\exercicio_orientacao_a_objetos.runtimeconfig.json
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\bin\Debug\net6.0\exercicio_orientacao_a_objetos.dll
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\bin\Debug\net6.0\exercicio_orientacao_a_objetos.pdb
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\exercicio_orientacao_a_objetos.csproj.AssemblyReference.cache
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\exercicio_orientacao_a_objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\exercicio_orientacao_a_objetos.AssemblyInfoInputs.cache
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\exercicio_orientacao_a_objetos.AssemblyInfo.cs
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\exercicio_orientacao_a_objetos.csproj.CoreCompileInputs.cache
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\exercicio_orientacao_a_objetos.dll
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\refint\exercicio_orientacao_a_objetos.dll
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\exercicio_orientacao_a_objetos.pdb
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\exercicio_orientacao_a_objetos.genruntimeconfig.cache
+C:\Users\jhoww\source\repos\exercicio_orientacao_a_objetos\exercicio_orientacao_a_objetos\obj\Debug\net6.0\ref\exercicio_orientacao_a_objetos.dll
