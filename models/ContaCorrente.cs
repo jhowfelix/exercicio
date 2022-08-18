@@ -1,4 +1,5 @@
-﻿using System;
+﻿using exercicio_orientacao_a_objetos.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,9 +15,11 @@ namespace exercicio_orientacao_a_objetos.models
         public ContaCorrente(int agencia, int numero, decimal saldo, DateTime dataAbertura, IList<Cliente> clientes, TipoConta tipo) : base(agencia, numero, saldo, dataAbertura, clientes)
         {
             Tipo = tipo;
-            if (Tipo == TipoConta.Comum)
-                Limite = 0;
-
+            if (Tipo == TipoConta.Premium)
+                Limite = 1000;
+            else if (Tipo == TipoConta.Especial)
+                Limite = 500;
+            
         }
 
     
@@ -26,12 +29,17 @@ namespace exercicio_orientacao_a_objetos.models
 
         public override void Depositar(decimal valor)
         {
-            throw new NotImplementedException();
+            Saldo += valor;
         }
 
         public override void Retirar(decimal valor)
         {
-            throw new NotImplementedException();
+            if (valor > Saldo + Limite)
+            {
+                throw new SaldoInsuficienteException($"Valor disponivel: {Saldo + Limite }");
+            }
+            Saldo -= valor;
+          
         }
 
 
