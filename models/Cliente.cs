@@ -8,9 +8,9 @@ namespace exercicio_orientacao_a_objetos.models
 {
     public class Cliente
     {
-        public long Id;
-        public String nome;
-        public String cpf;
+        public long Id { get; set; }
+        public String nome { get; set; }
+        public String cpf { get; set; }
 
         public Cliente(long id, string nome, string cpf)
         {
