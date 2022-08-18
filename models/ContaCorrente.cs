@@ -7,13 +7,19 @@ using System.Threading.Tasks;
 namespace exercicio_orientacao_a_objetos.models
 {
     internal class ContaCorrente : Conta
-    {
-        public ContaCorrente(int agencia, int numero, decimal saldo, DateTime dataAbertura, IList<Cliente> clientes) : base(agencia, numero, saldo, dataAbertura, clientes)
-        {
-        }
-
+    {    
+        
         public TipoConta Tipo { get; set; }
         public decimal Limite { get; set; }
+        public ContaCorrente(int agencia, int numero, decimal saldo, DateTime dataAbertura, IList<Cliente> clientes, TipoConta tipo) : base(agencia, numero, saldo, dataAbertura, clientes)
+        {
+            Tipo = tipo;
+            if (Tipo == TipoConta.Comum)
+                Limite = 0;
+
+        }
+
+    
 
 
      
@@ -27,10 +33,12 @@ namespace exercicio_orientacao_a_objetos.models
         {
             throw new NotImplementedException();
         }
+
+
         public enum TipoConta
-    {
+         {
         Comum, Especial, Premium
-    }
+         }   
     }
 
     
