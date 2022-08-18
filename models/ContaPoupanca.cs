@@ -1,4 +1,5 @@
-﻿using System;
+﻿using exercicio_orientacao_a_objetos.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,17 +17,17 @@ namespace exercicio_orientacao_a_objetos.models
 
         public decimal CalcularRetornoInvestimento()
         {
-            throw new NotImplementedException();
+            return Saldo * 0.04m; // m -> Transforma o double em decimal
         }
 
-        public override void Depositar(decimal valor)
-        {
-            Saldo += valor;
-        }
-
+    
         public override void Retirar(decimal valor)
         {
-            throw new NotImplementedException();
+            if(valor > Saldo - Taxa)
+            {
+                throw new SaldoInsuficienteException();
+            }
+            Saldo -= valor + Taxa;
         }
     }
 }

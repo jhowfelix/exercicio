@@ -23,7 +23,10 @@ namespace exercicio_orientacao_a_objetos.models
             Clientes = clientes;
         }
 
-        public abstract void Depositar(decimal valor);
+        public virtual void Depositar(decimal valor)
+        {
+            Saldo += valor;
+        }
 
         public abstract void Retirar(decimal valor);
     }
