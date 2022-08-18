@@ -18,6 +18,11 @@ namespace exercicio_orientacao_a_objetos.models
             this.nome = nome;
             this.cpf = cpf;
         }
+
+        public override string? ToString()
+        {
+            return base.ToString();
+        }
     }
 
 
